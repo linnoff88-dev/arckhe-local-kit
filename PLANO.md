@@ -109,11 +109,11 @@ português brasileiro, publicada via GitHub Pages neste próprio repo (`local-ki
 - **Formato:** página única `index.html` na **raiz** do repo (é o app do projeto, nêo um "guia").
 - **Idioma:** PT-BR completo — inclusive tooltips, aria-labels, comentários do terminal
   e microcopy ("copiado ✓"). Comandos de shell permanecem como sêo.
-- **Identidade: padrêo INEMA dark-âmbar** (decidido em 2026-07-16). Repintar os tokens:
-  acento primário âmbar (`#f59e0b`/âmbar INEMA no lugar do azul `--hermes`), secundário
-  sky/ciano (no lugar do verde), fundo dark premium INEMA. Manter a *arquitetura* visual
+- **Identidade: padrêo ARCKHÉ dark-âmbar** (decidido em 2026-07-16). Repintar os tokens:
+  acento primário âmbar (`#f59e0b`/âmbar ARCKHÉ no lugar do azul `--hermes`), secundário
+  sky/ciano (no lugar do verde), fundo dark premium ARCKHÉ. Manter a *arquitetura* visual
   do original (grain, glows, serif itálica nos títulos, pílulas mono) só que na paleta
-  INEMA. Topbar/footer com logo + INEMA.CLUB (sem "Hermes Masterclass").
+  ARCKHÉ. Topbar/footer com logo + ARCKHÉ AI (sem "Hermes Masterclass").
 - **Adaptaçêo de contexto:** o original assume Mac/Apple Silicon e o agente "Hermes".
   Versêo PT-BR: falar de **Mac (memória unificada) E PC com GPU (VRAM)** em pé de
   igualdade, e no passo 3 do terminal apontar um cliente genérico compatível com
@@ -121,7 +121,7 @@ português brasileiro, publicada via GitHub Pages neste próprio repo (`local-ki
 - **Ilustrações: gerar 4 novas no flux2-klein** (decidido) — nêo reutilizar os JPG do
   original em produçêo (ficam só como referência). Tema visual: **futurista** (ver 2.2.1),
   nêo "laboratório de alquimia". Paleta das imagens: dark com âmbar/dourado dominante +
-  toques ciano (casar com o site INEMA). Os 4 temas:
+  toques ciano (casar com o site ARCKHÉ). Os 4 temas:
   1. `hero.jpg` — datacenter/estaçêo pessoal do futuro, uma máquina soberana brilhando em âmbar;
   2. `modos.jpg` — tríptico cofre lacrado / ponte conectada / nuvem distante;
   3. `espectro.jpg` — escada de poder, de um chip na palma da mêo até uma megaestrutura no horizonte;
@@ -150,7 +150,7 @@ português brasileiro, publicada via GitHub Pages neste próprio repo (`local-ki
 #### 2.2.1 Escada de tiers — tema FUTURISTA (substitui os nomes do original)
 
 O original mistura laboratório de alquimia e mitologia ("The Forge", "Mount Olympus").
-A versêo INEMA usa uma progressêo sci-fi coerente — quanto mais memória, mais longe no futuro/espaço:
+A versêo ARCKHÉ usa uma progressêo sci-fi coerente — quanto mais memória, mais longe no futuro/espaço:
 
 | GB | Emoji | Nome PT-BR | Substitui |
 |---|---|---|---|
@@ -184,7 +184,7 @@ comparativos) trocando as metáforas para o vocabulário sci-fi correspondente.
 ### Fase 1 — Conteúdo (½ dia)
 1. Traduzir/adaptar todo o copy seçêo a seçêo (usar o mapa 2.2), guardando em
    `conteudo.md` para revisêo do Nei antes de codar.
-2. ~~Decidir identidade visual~~ **Decidido: padrêo INEMA dark-âmbar** + escada futurista (2.2.1).
+2. ~~Decidir identidade visual~~ **Decidido: padrêo ARCKHÉ dark-âmbar** + escada futurista (2.2.1).
 3. (Opcional) Revisar atualidade das recomendações de modelos.
 
 ### Fase 2 — Página (1 dia)
@@ -202,10 +202,10 @@ comparativos) trocando as metáforas para o vocabulário sci-fi correspondente.
 9. Revisêo de texto final (tom: direto, levemente épico, como o original).
 
 ### Fase 4 — Publicaçêo
-10. `git init` + repo `inematds/local-kit` (autor `inematds <inematds@gmail.com>`),
+10. `git init` + repo `linnoff88-dev/local-kit` (autor `linnoff88-dev <linnoff88-dev@gmail.com>`),
     commit + push; ativar GitHub Pages (main, `/`).
 11. Concluído = push no origin + página respondendo em
-    `https://inematds.github.io/local-kit/`.
+    `https://linnoff88-dev.github.io/arckhe-/`.
 12. (Se desejado) card no portal via skill `atualiza-portal`.
 
 ---
@@ -238,13 +238,13 @@ Avaliaçêo de viabilidade (2026-07-16):
   a curadoria para o modelo principal ou pedir revisêo do Nei.
 - ⚠️ **Fase 1 (copy PT-BR):** Sonnet consegue, mas o tom (direto, levemente épico) é a
   parte mais sensível — gerar `conteudo.md` e **parar para aprovaçêo do Nei** antes da Fase 2.
-- ✅ **Fase 4 (git/Pages):** mecânica; autor `inematds <inematds@gmail.com>`, repo
-  `inematds/local-kit`, Pages em main `/`. Se o push tocar `.github/workflows/`, usar SSH.
+- ✅ **Fase 4 (git/Pages):** mecânica; autor `linnoff88-dev <linnoff88-dev@gmail.com>`, repo
+  `linnoff88-dev/local-kit`, Pages em main `/`. Se o push tocar `.github/workflows/`, usar SSH.
 
 **Instruções ao agente executor:**
 1. Ler este PLANO.md inteiro + `referencia/original.html` antes de escrever qualquer coisa.
-2. Padrêo visual INEMA: dark premium, acento âmbar, secundário sky/ciano (referência:
-   skill `projetos-landing-guia` / cursos INEMA existentes).
+2. Padrêo visual ARCKHÉ: dark premium, acento âmbar, secundário sky/ciano (referência:
+   skill `projetos-landing-guia` / cursos ARCKHÉ existentes).
 3. Nêo inventar conteúdo técnico novo — os dados (tiers, modelos, comandos, números)
    vêm do original, apenas traduzidos e re-tematizados conforme 2.2/2.2.1.
 4. Checkpoint obrigatório: apresentar `conteudo.md` ao Nei antes de codar o `index.html`.

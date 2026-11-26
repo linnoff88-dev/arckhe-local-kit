@@ -1,4 +1,4 @@
-# Conteúdo PT-BR — Laboratório Local (INEMA)
+# Conteúdo PT-BR — Laboratório Local (ARCKHÉ)
 
 > Copy completo, seçêo a seçêo, pronto para colar no `index.html` (Fase 2).
 > Fatos/números/comandos preservados do original; texto todo traduzido/adaptado.
@@ -8,12 +8,12 @@
 
 ## META
 
-- **`<title>`:** `O Laboratório Local · Bonus Kit — INEMA.CLUB`
+- **`<title>`:** `O Laboratório Local · Bonus Kit — ARCKHÉ AI`
 - **`<link rel="icon">`:** `raw-images/icon.png`
 - **`lang`:** `pt-BR`
 - **Badge do topo (topbar, canto direito):** `Capítulo 3 · Kit Bônus`
-- **Link do topbar (canto esquerdo):** `← INEMA.CLUB · Início` → aponta para `https://inema.club/`
-- **Footer:** `INEMA.CLUB · Kit bônus do Capítulo 3 · inema.club` (link para `https://inema.club/`)
+- **Link do topbar (canto esquerdo):** `← ARCKHÉ AI · Início` → aponta para `https://ARCKHÉ AI/`
+- **Footer:** `ARCKHÉ AI · Kit bônus do Capítulo 3 · ARCKHÉ AI` (link para `https://ARCKHÉ AI/`)
 
 ---
 
