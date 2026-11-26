@@ -498,8 +498,8 @@ OLLAMA_CONTEXT_LENGTH=65536 ollama serve
       chips:[["openai-white.svg","GPT-OSS 20B","gpt-oss:20b",1],["qwen.svg","Qwen3 14B","qwen3:14b",0],["deepseek.svg","DeepSeek-R1 14B","deepseek-r1:14b",0]],
       tm:["janeiro de 2025 — 18 meses atrás","O GPT-OSS 20B troca socos com o o3-mini — a própria OpenAI reivindicou essa paridade no post de lançamento.",["openai-white.svg"]],
       cmp:["OpenAI o3-mini","O parente mais próximo oficial — direto do post de lançamento da OpenAI. Em termos Claude: batendo na porta do Haiku.",["openai-white.svg","claude.svg"]] },
-    { min:24, emo:"⚡", name:"O Núcleo ★", ctx:"64K com quantização de KV-cache",
-      desc:"Qwen3-Coder 30B a ~40 tok/s com contexto de verdade — a melhor experiência de código local por real investido. É o tier em torno do qual esta lição inteira foi construída.",
+    { min:24, emo:"⚡", name:"O Núcleo ★", ctx:"64K com quantizaçêo de KV-cache",
+      desc:"Qwen3-Coder 30B a ~40 tok/s com contexto de verdade — a melhor experiência de código local por real investido. É o tier em torno do qual esta liçêo inteira foi construída.",
       chips:[["qwen.svg","Qwen3-Coder 30B","qwen3-coder:30b-a3b",1],["gemma.svg","Gemma 3 27B","gemma3:27b",0],["openai-white.svg","GPT-OSS 20B","gpt-oss:20b",0]],
       tm:["meados de 2024 — dois anos atrás","Esse tier joga na liga do GPT-4o — o melhor modelo do planeta naquela época.",["openai-white.svg"]],
       cmp:["o andar rápido de hoje","Cavalos de trabalho tipo Haiku 4.5 / Flash — a mesma liga de tarefas, uma conta bem diferente.",["claude.svg","gemini.svg"]] },
@@ -513,18 +513,18 @@ OLLAMA_CONTEXT_LENGTH=65536 ollama serve
       chips:[["meta.svg","Llama 3.3 70B","llama3.3:70b",1],["deepseek.svg","DeepSeek-R1 32B","deepseek-r1:32b",0],["qwen.svg","Qwen3-Coder 30B","qwen3-coder:30b-a3b",0]],
       tm:["março de 2023 — mais de três anos atrás","O GPT-4 original — este tier supera com folga o modelo que mudou tudo.",["openai-white.svg"]],
       cmp:["os carros-chefe de 405B de 2024","A Meta posicionou o Llama 3.3 70B no nível do seu carro-chefe de 405B — a classe que enfrentou GPT-4o e Claude 3.5 Sonnet.",["meta.svg","claude.svg"]] },
-    { min:64, emo:"🛰️", name:"Controle da Missão",  ctx:"contexto longo, múltiplos modelos",
+    { min:64, emo:"🛰️", name:"Controle da Missêo",  ctx:"contexto longo, múltiplos modelos",
       desc:"Raciocínio de fronteira destilado pra 70B, rodando com contexto genuinamente longo — ou vários modelos menores residentes ao mesmo tempo.",
       chips:[["deepseek.svg","DeepSeek-R1 70B","deepseek-r1:70b",1],["meta.svg","Llama 3.3 70B","llama3.3:70b",0],["qwen.svg","Qwen3-Coder 30B","qwen3-coder:30b-a3b",0]],
       tm:["os carros-chefe de 2024 — dois anos atrás","Respostas de classe 405B vivendo na sua mesa — agora com o contexto pra usá-las de verdade.",["meta.svg"]],
-      cmp:["os gigantes abertos alugados","Território GLM / DeepSeek — o que falta é contexto e velocidade, não classe.",["glm.svg","deepseek.svg"]] },
-    { min:96, emo:"🌌", name:"A Estação Orbital",  ctx:"~128K prático",
+      cmp:["os gigantes abertos alugados","Território GLM / DeepSeek — o que falta é contexto e velocidade, nêo classe.",["glm.svg","deepseek.svg"]] },
+    { min:96, emo:"🌌", name:"A Estaçêo Orbital",  ctx:"~128K prático",
       desc:"A classe 120B entra em cena — o GPT-OSS 120B pede ~80GB — com espaço sobrando pro coder e um raciocinador.",
       chips:[["openai-white.svg","GPT-OSS 120B","gpt-oss:120b",1],["deepseek.svg","DeepSeek-R1 70B","deepseek-r1:70b",0],["qwen.svg","Qwen3-Coder 30B","qwen3-coder:30b-a3b",0]],
       tm:["abril de 2025 — 15 meses atrás","O GPT-OSS 120B aterrissa perto do o4-mini — paridade reivindicada pela própria OpenAI.",["openai-white.svg"]],
       cmp:["OpenAI o4-mini","O parente mais próximo oficial, direto do post de lançamento. Em termos Claude: território Haiku 4.5.",["openai-white.svg","claude.svg"]] },
     { min:128, emo:"🪐", name:"A Frota Estelar",   ctx:"contexto longo em tudo",
-      desc:"Tudo desta página roda ao mesmo tempo, todos com contexto de verdade. Nesse ponto, seu gargalo são as ideias, não a memória.",
+      desc:"Tudo desta página roda ao mesmo tempo, todos com contexto de verdade. Nesse ponto, seu gargalo sêo as ideias, nêo a memória.",
       chips:[["openai-white.svg","GPT-OSS 120B","gpt-oss:120b",1],["meta.svg","Llama 3.3 70B","llama3.3:70b",0],["deepseek.svg","DeepSeek-R1 70B","deepseek-r1:70b",0]],
       tm:["abril de 2025 — 15 meses atrás","Raciocínio classe o4-mini, totalmente offline — com espaço pro elenco inteiro ao lado.",["openai-white.svg"]],
       cmp:["OpenAI o4-mini","Raciocínio quase-fronteira que nunca sai da sua mesa — território Haiku 4.5, em termos Claude.",["openai-white.svg","claude.svg"]] }
@@ -562,7 +562,7 @@ OLLAMA_CONTEXT_LENGTH=65536 ollama serve
     if (cs) cs.textContent = '✦ acesos = cabem nos seus ' + gb + ' GB' + (chartView === 'pw' ? ' · ordenado por capacidade' : '');
   }
 
-  // views tamanho ⇄ poder — os pontos animam entre posição de parâmetros e posição de capacidade
+  // views tamanho ⇄ poder — os pontos animam entre posiçêo de parâmetros e posiçêo de capacidade
   var PW = { 'qwen3:4b':22, 'qwen3:8b':33, 'qwen3:14b':45, 'qwen3-coder:30b-a3b':66, 'qwen3:32b':60,
     'deepseek-r1:7b':36, 'deepseek-r1:14b':52, 'deepseek-r1:32b':68, 'deepseek-r1:70b':78,
     'gpt-oss:20b':58, 'gpt-oss:120b':85,
